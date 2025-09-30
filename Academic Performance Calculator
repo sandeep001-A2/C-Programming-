@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a, b, c, d, e, sum;
+    float x;
+    scanf("%d%d%d%d%d", &a, &b, &c, &d, &e);
+    sum = a+b+c+d+e;
+    x = sum/5;
+        printf("%d %.2f %.2f", sum, x, x);
+    return 0;
+}
