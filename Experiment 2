@@ -1,0 +1,54 @@
+#include<stdio.h>
+int main(){
+int a, b, sum, subtraction, multiplication, remainder;
+printf("Enter First Number : ");
+scanf("%d", &a);
+printf("Enter Second Number : ");
+scanf("%d", &b);
+sum=a+b;
+subtraction=a-b;
+multiplication=a*b;
+remainder=a%b;
+printf("\nSum = %d", sum);
+printf("\nSubtraction = %d", subtraction);
+printf("\nMultiplication = %d", multiplication);
+printf("\nRemainder = %d", remainder);
+return 0;
+}
+
+#include<stdio.h>
+int main(){
+float r, l, b, x, area, perimeter;
+printf("Enter the radius of the circle : ");
+scanf("%f", &r);
+area = 3.14*r*r;
+perimeter = 2*3.14*r;
+printf("Area of circle = %f", area);
+printf("\nPerimeter of Circle = %f", perimeter);
+printf("\n\nEnter the dimensions of the rectangle : ");
+scanf("%f%f", &l, &b);
+area = l*b;
+perimeter = 2*(l+b);
+printf("Area of Rectangle = %f", area);
+printf("\nPerimeter of Rectangle = %f", perimeter);
+printf("\n\nEnter the side of square : ");
+scanf("%f", &x);
+area = x*x;
+perimeter = 4*x;
+printf("Area of Square = %f", area);
+printf("\nPerimeter of Square = %f", perimeter);
+return 0;
+}
+
+#include<stdio.h>
+#include<math.h>
+int main(){
+float x1, x2, y1, y2, d;
+printf("Enter First Cordinates : ");
+scanf("%f%f", &x1, &y1);
+printf("Enter Second Cordinates : ");
+scanf("%f%f", &x2, &y2);
+d = sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+printf("Distance between two points : %f", d);
+return 0;
+}
