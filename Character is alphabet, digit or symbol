@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+char ch;
+printf("Enter Character : ");
+scanf("%c", &ch);
+if((ch>=65 && ch<=90) ||(ch>=97 && ch<=122)){
+printf("You have enter alphabet");
+}
+else if(ch>=48 &&ch<=57){
+    printf("You have enter digit");
+}
+else{
+    printf("You have eneter symbol");
+}
+
+    return 0;
+}
